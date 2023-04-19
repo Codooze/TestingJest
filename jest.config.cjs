@@ -23,6 +23,7 @@ module.exports = {
   moduleNameMapper: {
     "^react-native$": "react-native-web",
     "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy",
+    "^.+\\.(svg)$": "<rootDir>/src/__mocks__/fileMock.js",
   },
   moduleFileExtensions: [
     // Place tsx and ts to beginning as suggestion from Jest team
